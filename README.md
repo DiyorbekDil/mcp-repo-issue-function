@@ -27,8 +27,8 @@ A powerful Model Context Protocol (MCP) tool that enables automated GitHub issue
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/github-issue-creator.git
-   cd github-issue-creator
+   git clone https://github.com/DiyorbekDil/mcp-repo-issue-function.git
+   cd mcp-repo-issue-function
    ```
 
 2. **Install dependencies**
@@ -59,9 +59,6 @@ A powerful Model Context Protocol (MCP) tool that enables automated GitHub issue
 2. Generate a fine-grained token with **Issues: Write** permission
 3. Add the token to your `.env` file
 
-### Repository Configuration
-Update the `REPO_NAME` in your `.env` file with your target repository in the format: `username/repository-name`
-
 ## 💡 Usage
 
 Once configured, the tool exposes a `create_issue` function that can be called by MCP-compatible AI assistants:
@@ -72,3 +69,4 @@ create_issue(
     issue_text="Detailed issue description with markdown support"
 )
 ```
+
